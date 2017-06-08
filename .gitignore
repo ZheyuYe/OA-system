@@ -35,3 +35,6 @@ gen
 /.classpath
 /.project
 /src/main/webapp/WEB-INF/database.properties
+
+# Project database setting
+./src/main/main.iml
