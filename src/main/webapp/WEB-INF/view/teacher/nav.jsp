@@ -50,7 +50,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">桂林电子科技大学教材订购系统</a>
+            <a class="navbar-brand" href="#">高校OA系统</a>
         </div>
         <!-- /.navbar-header -->
 
@@ -80,10 +80,45 @@
                         <a href="${pageContext.request.contextPath}/main.do/teacher"> 主页</a>
                     </li>
                     <li>
-                        <a href="#"> 成绩录入</a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i>个人中心<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/"> 个人信息</a>
+                            </li>
+                            <li>
+                                <a href="/"> 资料修改</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/orderbook.do/orderbook.view"> 教材添加</a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i>教务部<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/"> 查看课表</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i> 财务部<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/"> 报销查看</a>
+                            </li>
+                            <li>
+                                <a href="/"> 报销申请</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i> 人事部<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/"> 请假查看</a>
+                            </li>
+                            <li>
+                                <a href="/"> 请假申请</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
