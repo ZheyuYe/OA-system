@@ -37,4 +37,4 @@ gen
 /src/main/webapp/WEB-INF/database.properties
 
 # Project database setting
-./src/main/resources/db.properties
+/src/main/resources/db.properties
