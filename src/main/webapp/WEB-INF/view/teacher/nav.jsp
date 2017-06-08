@@ -119,7 +119,7 @@
                                 <a href="/"> 请假申请</a>
                             </li>
                         </ul>
-                    </li>
+                    </li>†
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
