@@ -80,10 +80,7 @@
                         <a href="${pageContext.request.contextPath}/main.do/student"> 主页</a>
                     </li>
                     <li>
-                        <a href="/"> 个人信息</a>
-                    </li>
-                    <li>
-                        <a href="/"> 课表</a>
+                        <a href="${pageContext.request.contextPath}/elective.do/show"> 课表</a>
                     </li>
                     <li>
                         <a href="${pageContext.request.contextPath}/elective.do/elective.view"> 选课</a>
