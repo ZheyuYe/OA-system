@@ -14,6 +14,7 @@ public interface SectionDao {
     //TODO 狗血命名！！
     public List<SectionCustom> findAllCustom();
 
+    public List<SectionCustom> findMyCustom(@Param("stdId") String stdId);
     public void delete(int sectionId);
 
     public void add(Section section);

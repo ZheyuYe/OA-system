@@ -32,6 +32,11 @@ public class ElectiveBizImpl implements ElectiveBiz {
     }
 
     @Override
+    public List<SectionCustom> findMySection(String stdId) {
+        return sectionDao.findMyCustom(stdId);
+    }
+
+    @Override
     public void delete(int secId, String stdId) {
         takesDao.delete(secId,stdId);
     }

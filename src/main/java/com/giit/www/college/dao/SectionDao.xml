@@ -37,6 +37,19 @@
         LEFT JOIN timetable ON section.sec_id = timetable.sec_id
     </select>
 
+    <select id="findMyCustom" resultMap="sec_custom_map">
+
+        SELECT * FROM
+        (SELECT section.sec_id,section.course_title,section.year,
+        staff.staff_name,timetable.time,timetable.week,timetable.weeks,timetable.classroom FROM section
+        INNER JOIN staff ON section.staff_id = staff.staff_id
+        LEFT JOIN timetable ON section.sec_id = timetable.sec_id) as dick
+        WHERE sec_id in (SELECT takes.sec_id FROM takes WHERE takes.student_id = #{stdId})
+
+    </select>
+
+
+
     <insert id="add" parameterType="Section">
         INSERT INTO section(course_title,year,staff_id) VALUES(#{courseTitle},#{year},#{staffId})
     </insert>

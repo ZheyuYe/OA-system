@@ -27,7 +27,6 @@ public class ElectiveController {
         return "/student/elective";
     }
 
-
     @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
     @RequestMapping("show")
     public String show(Model m,HttpSession session) {
@@ -44,7 +43,6 @@ public class ElectiveController {
         String stdId = (String) session.getAttribute("username");
 
         electiveBiz.add(secId, stdId);
-
         return "redirect:/elective.do/elective.view";
     }
 

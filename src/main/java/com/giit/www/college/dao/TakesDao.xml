@@ -11,7 +11,7 @@
     </select>
 
     <insert id="add" parameterType="map">
-        INSERT INTO takes(student_id,sec_Id) VALUES(#{stdId},#{secId})
+        INSERT IGNORE INTO takes(student_id,sec_Id) VALUES(#{stdId},#{secId})
     </insert>
 
     <delete id="delete" parameterType="map">

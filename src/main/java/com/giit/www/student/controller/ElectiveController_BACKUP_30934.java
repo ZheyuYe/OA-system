@@ -27,7 +27,15 @@ public class ElectiveController {
         return "/student/elective";
     }
 
+<<<<<<< HEAD
+   // @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
+    @RequestMapping("add")
+    public String add(int secId, HttpSession session) {
 
+       // String stdId = (String) session.getAttribute("username");
+
+        String stdId = "student";
+=======
     @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
     @RequestMapping("show")
     public String show(Model m,HttpSession session) {
@@ -43,6 +51,7 @@ public class ElectiveController {
     public String add(int secId, HttpSession session) {
         String stdId = (String) session.getAttribute("username");
 
+>>>>>>> dev
         electiveBiz.add(secId, stdId);
 
         return "redirect:/elective.do/elective.view";
