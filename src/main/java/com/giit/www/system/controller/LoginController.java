@@ -16,9 +16,6 @@ import javax.security.auth.Subject;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-/**
- * Created by c0de8ug on 16-2-14.
- */
 @Controller
 public class LoginController {
 

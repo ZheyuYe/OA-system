@@ -6,9 +6,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-12.
- */
 public interface SectionDao {
 
     //TODO 狗血命名！！

@@ -83,10 +83,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>个人中心<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 个人信息</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher">个人信息</a>
                             </li>
                             <li>
-                                <a href="/"> 资料修改</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 资料修改</a>
                             </li>
                         </ul>
                     </li>
@@ -94,7 +94,7 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>教务部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 查看课表</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 查看课表</a>
                             </li>
                         </ul>
                     </li>
@@ -102,10 +102,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 财务部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 报销查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 报销查看</a>
                             </li>
                             <li>
-                                <a href="/"> 报销申请</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 报销申请</a>
                             </li>
                         </ul>
                     </li>
@@ -113,16 +113,20 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 人事部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 请假查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 请假查看</a>
                             </li>
                             <li>
-                                <a href="/"> 请假申请</a>
+                                <a href="${pageContext.request.contextPath}/main.do/teacher"> 请假申请</a>
                             </li>
                         </ul>
-                    </li>†
+                    </li>
+                    <li>
+                        <a href="${pageContext.request.contextPath}/orderbook.do/orderbook.view"> 添加教材</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
         </div>
         <!-- /.navbar-static-side -->
     </nav>
+</div>

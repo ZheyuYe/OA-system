@@ -5,9 +5,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-14.
- */
 public interface BookDao {
 
     public void add(Book book);

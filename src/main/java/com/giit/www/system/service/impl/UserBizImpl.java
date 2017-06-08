@@ -18,10 +18,6 @@ import javax.annotation.Resource;
 import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 
-/**
- * Created by c0de8ug on 16-2-9.
- */
-
 @Service
 public class UserBizImpl implements UserBiz {
 

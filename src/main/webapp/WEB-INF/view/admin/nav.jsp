@@ -94,9 +94,6 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 教务部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 整体概况</a>
-                            </li>
-                            <li>
                                 <a href="${pageContext.request.contextPath}/dept.do/dept.view"> 系部设置</a>
                             </li>
                             <li>
@@ -106,13 +103,13 @@
                                 <a href="${pageContext.request.contextPath}/clazz.do/clazz.view"> 班级管理</a>
                             </li>
                             <li>
+                                <a href="${pageContext.request.contextPath}/student.do/student.view"> 学生管理</a>
+                            </li>
+                            <li>
                                 <a href="${pageContext.request.contextPath}/course.do/course.view"> 添加课程</a>
                             </li>
                             <li>
                                 <a href="${pageContext.request.contextPath}/section.do/section.view"> 课程安排</a>
-                            </li>
-                            <li>
-                                <a href="${pageContext.request.contextPath}/student.do/student.view"> 学生管理</a>
                             </li>
                         </ul>
 
@@ -121,10 +118,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 财务部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 报销查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/admin"> 报销查看</a>
                             </li>
                             <li>
-                                <a href="/"> 报销处理</a>
+                                <a href="${pageContext.request.contextPath}/main.do/admin"> 报销处理</a>
                             </li>
                         </ul>
                     </li>
@@ -132,10 +129,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 人事部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 请假查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/admin"> 请假查看</a>
                             </li>
                             <li>
-                                <a href="/"> 请假处理</a>
+                                <a href="${pageContext.request.contextPath}/main.do/admin"> 请假处理</a>
                             </li>
                         </ul>
                     </li>

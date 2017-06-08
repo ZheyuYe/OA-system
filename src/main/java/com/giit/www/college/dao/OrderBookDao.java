@@ -9,9 +9,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-13.
- */
 public interface OrderBookDao {
     public void add(OrderBook orderBook);
 

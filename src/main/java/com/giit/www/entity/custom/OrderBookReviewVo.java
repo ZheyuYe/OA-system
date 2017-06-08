@@ -1,8 +1,5 @@
 package com.giit.www.entity.custom;
 
-/**
- * Created by c0de8ug on 16-2-16.
- */
 public class OrderBookReviewVo {
     String speciality;
     String courseTitle;

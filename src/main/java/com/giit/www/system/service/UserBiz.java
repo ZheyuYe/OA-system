@@ -8,9 +8,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by c0de8ug on 16-2-9.
- */
 public interface UserBiz {
     public List<UserVo> findAll() throws InvocationTargetException, IllegalAccessException;
 

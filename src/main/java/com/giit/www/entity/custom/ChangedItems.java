@@ -2,9 +2,6 @@ package com.giit.www.entity.custom;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-15.
- */
 public class ChangedItems {
     int secId;
 

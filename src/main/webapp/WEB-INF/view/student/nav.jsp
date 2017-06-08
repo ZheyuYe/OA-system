@@ -84,10 +84,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>个人中心<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 个人信息</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 个人信息</a>
                             </li>
                             <li>
-                                <a href="/"> 资料修改</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 资料修改</a>
                             </li>
                         </ul>
                     </li>
@@ -107,10 +107,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 财务部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 报销查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 报销查看</a>
                             </li>
                             <li>
-                                <a href="/"> 报销申请</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 报销申请</a>
                             </li>
                         </ul>
                     </li>
@@ -118,10 +118,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 人事部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/"> 请假查看</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 请假查看</a>
                             </li>
                             <li>
-                                <a href="/"> 请假申请</a>
+                                <a href="${pageContext.request.contextPath}/main.do/student"> 请假申请</a>
                             </li>
                         </ul>
                     </li>

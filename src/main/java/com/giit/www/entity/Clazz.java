@@ -1,8 +1,5 @@
 package com.giit.www.entity;
 
-/**
- * Created by c0de8ug on 16-2-9.
- */
 public class Clazz {
     String clazzId;
     String className;

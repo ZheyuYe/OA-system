@@ -7,9 +7,6 @@ import com.giit.www.entity.custom.SectionCustom;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-12.
- */
 public interface SectionBiz {
     public void delete(int sectionId);
 

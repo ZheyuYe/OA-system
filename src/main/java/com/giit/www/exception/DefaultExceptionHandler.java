@@ -13,11 +13,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * <p>User: Zhang Kaitao
- * <p>Date: 14-2-12
- * <p>Version: 1.0
- */
 public class DefaultExceptionHandler implements HandlerExceptionResolver {
 
 

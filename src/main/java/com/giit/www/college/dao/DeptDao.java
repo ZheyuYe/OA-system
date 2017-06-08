@@ -5,9 +5,6 @@ import com.giit.www.entity.Dept;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-10.
- */
 public interface DeptDao {
     public List<Dept> findAll();
 

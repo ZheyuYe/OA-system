@@ -5,9 +5,7 @@ import org.springframework.ui.Model;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-12.
- */
+
 public interface CourseBiz {
     public List<Course> findAll();
 

@@ -8,9 +8,6 @@ import com.giit.www.entity.custom.OrderBookVo;
 
 import java.util.List;
 
-/**
- * Created by c0de8ug on 16-2-13.
- */
 public interface OrderBookBiz {
     public List<Section> findSelectedSection(String staffId, String year);
 
