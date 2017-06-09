@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.giit.www.college.dao.PayMentDao">
+
+    <insert id="add" parameterType="PayMent">
+        INSERT INTO PayMent(id,apply_name,handle_name,apply_reason,apply_money,handle_time,handle_state) VALUES(#{id},#{apply_name},#{hanle_name},#{apply_reason},#{apply_money},#{handle_time},#{handle_state})
+    </insert>
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM PayMent WHERE id = #{value}
+    </delete>
+</mapper>
