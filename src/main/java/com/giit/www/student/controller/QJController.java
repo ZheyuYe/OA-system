@@ -19,24 +19,24 @@ public class QJController {
     @Resource(name = "QJBizImpl")
     private QJBiz QJBiz;
 
-    //@RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
-    //@RequestMapping("QJ.view")
-    //public String QJView(Model m) {
-    //    m.addAttribute("sectionList", QJBiz.findAllSection());
-    //    return "/student/QJ";
-    //}
+    @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
+    @RequestMapping("showQJ")
+    public String QJView(Model m) {
+        m.addAttribute("qjList", QJBiz.findAllQJ());
+        return "/student/human/showQJ";
+    }
 
     @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
     @RequestMapping("add")
     public String add(QJ qj, HttpSession session) {
         QJBiz.add(qj);
-        return "redirect:/QJ.do/QJ.view";
+        return "/student/human/addQJ";
     }
 
-    @RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
+    /*@RequiresRoles(value = {"admin", "student"}, logical = Logical.OR)
     @RequestMapping("delete")
     public String delete(int id, HttpSession session){
         QJBiz.delete(id);
         return "redirect:/QJ.do/QJ.view";
-    }
+    }*/
 }

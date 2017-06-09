@@ -7,7 +7,7 @@
 <mapper namespace="com.giit.www.college.dao.QJDao">
 
 <insert id="add" parameterType="QJ">
-    INSERT INTO QJ(id,apply_name,handle_name,apply_reason,begin_time,end_time,handle_time,handle_state) VALUES(#{id},#{apply_name},#{hanle_name},#{apply_reason},#{begin_time},#{end_time},#{handle_time},#{handle_state})
+    INSERT INTO QJ(qj_id,apply_name,handle_name,apply_reason,begin_time,end_time,handle_time,handle_state) VALUES(#{qj_id},#{apply_name},#{hanle_name},#{apply_reason},#{begin_time},#{end_time},#{handle_time},#{handle_state})
 </insert>
 
 <delete id="delete" parameterType="int">

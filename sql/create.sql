@@ -172,6 +172,38 @@ CREATE TABLE user
 )
   DEFAULT CHARSET = utf8,
   ENGINE = InnoDB;
+
+  CREATE TABLE QJ
+    (
+      qj_id           INT AUTO_INCREMENT,
+      apply_name  VARCHAR(30),
+      handle_name VARCHAR(30),
+      apply_reason VARCHAR(100),
+      begin_time   VARCHAR(100),
+      end_time     VARCHAR(100),
+      handle_time  VARCHAR(100),
+      handle_state VARCHAR(100),
+      PRIMARY KEY (qj_id)
+    )
+
+    DEFAULT CHARSET = utf8,
+    ENGINE = InnoDB;
+
+   CREATE TABLE PayMent
+    (
+      payment_id INT AUTO_INCREMENT,
+      apply_name VARCHAR(30),
+      handle_name VARCHAR(30),
+      apply_reason VARCHAR(200),
+      apply_money VARCHAR(30),
+      handle_time VARCHAR(30),
+      handle_state VARCHAR(30),
+      PRIMARY KEY (payment_id)
+    )
+
+    DEFAULT CHARSET = utf8,
+    ENGINE = InnoDB;
+
 CREATE UNIQUE INDEX idx_user_username ON user (user_id);
 
 #ALTER TABLE staff ADD CONSTRAINT fk_user_staff FOREIGN KEY (staff_id) REFERENCES orders (user_id);
@@ -179,4 +211,3 @@ CREATE UNIQUE INDEX idx_user_username ON user (user_id);
 #FOREIGN KEY (book_title,isbn) REFERENCES book (book_title,isbn),
 #FOREIGN KEY (grade,professional,department) REFERENCES class (grade,professional,department),
 #FOREIGN KEY (course_id) REFERENCES course (courses_id);
-

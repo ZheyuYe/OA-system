@@ -1,7 +1,7 @@
 package com.giit.www.entity;
 
 public class PayMent {
-    int id;
+    int payment_id;
     String apply_name;
     String handle_name;
     String apply_reason;
@@ -10,11 +10,11 @@ public class PayMent {
     String handle_state;
 
     public int getId() {
-        return id;
+        return payment_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int payment_id) {
+        this.payment_id = payment_id;
     }
 
     public String getApply_name() {

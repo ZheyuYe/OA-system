@@ -7,7 +7,7 @@
 <mapper namespace="com.giit.www.college.dao.PayMentDao">
 
     <insert id="add" parameterType="PayMent">
-        INSERT INTO PayMent(id,apply_name,handle_name,apply_reason,apply_money,handle_time,handle_state) VALUES(#{id},#{apply_name},#{hanle_name},#{apply_reason},#{apply_money},#{handle_time},#{handle_state})
+        INSERT INTO PayMent(payment_id,apply_name,handle_name,apply_reason,apply_money,handle_time,handle_state) VALUES(#{payment_id},#{apply_name},#{hanle_name},#{apply_reason},#{apply_money},#{handle_time},#{handle_state})
     </insert>
 
     <delete id="delete" parameterType="int">

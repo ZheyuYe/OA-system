@@ -1,7 +1,7 @@
 package com.giit.www.entity;
 
 public class QJ {
-    int id;
+    int qj_id;
     String apply_name;
     String handle_name;
     String apply_reason;
@@ -11,11 +11,11 @@ public class QJ {
     String handle_state;
 
     public int getId() {
-        return id;
+        return qj_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int qj_id) {
+        this.qj_id = qj_id;
     }
 
     public String getApply_name() {

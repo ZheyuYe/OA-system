@@ -129,7 +129,7 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> 人事部<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="${pageContext.request.contextPath}/main.do/admin"> 请假查看</a>
+                                <a href="${pageContext.request.contextPath}/admin.do/admin"> 请假查看</a>
                             </li>
                             <li>
                                 <a href="${pageContext.request.contextPath}/main.do/admin"> 请假处理</a>
